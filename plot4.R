@@ -32,6 +32,8 @@ with(February,{
         points(DateTime, Sub_metering_1, type = "l", col = "black")
         points(DateTime, Sub_metering_2, type = "l", col = "red")
         points(DateTime, Sub_metering_3, type = "l", col = "blue")})
+    legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
+           col = c("black", "red", "blue"),lty = 1, box.lty = 0, cex = 0.7)
     plot(DateTime, Global_reactive_power, type = "l", xlab = "datetime")
 })
 dev.off()

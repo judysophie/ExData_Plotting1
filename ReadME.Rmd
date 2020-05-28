@@ -1,0 +1,11 @@
+---
+title: "ReadME"
+author: "Me"
+date: "5/28/2020"
+output: html_document
+---
+
+## Read Me file: Base plotting system in R (Exploratory Data Analysis Week 1)
+
+Included are 4 separate code files that each check whether the data has already been loaded, if not, loads the data, subsets the data from the time period investigated (2007-02-01 to 2007-02-02) and then opens a document and saves the plot as a .png file.
+If you want to see the graph on the screen, just run the "plotting code" inbetween the png() and dev.off() commands.
